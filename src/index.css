@@ -111,3 +111,12 @@ section .section-title {
     color:#f0d9a1 ;
     text-shadow: #030201 1px 2px 10px;
 }
+
+.bg-c-blue {
+    background-color: #007bff;
+  }
+  
+  .bg-c-green {
+    background-color: #28a745;
+  }
+  
