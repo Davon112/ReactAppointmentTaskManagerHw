@@ -1,4 +1,5 @@
 
+
 import { useAuth0 } from "@auth0/auth0-react";
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
@@ -19,7 +20,7 @@ const NavBar = () =>{
           <Nav className="d-flex align-top">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/schedule-appointment">Schedule Appointment</Nav.Link>
-            <Nav.Link as={Link} to="my-appointments">My Appointments</Nav.Link>
+            <Nav.Link as={Link} to="/my-appointments">Appointments History</Nav.Link>
             
             <NavDropdown title="Account" id="basic-nav-dropdown">
               <NavLink as={Link} to="/profile"><NavDropdown.Item href="#action/3.1">Profile</NavDropdown.Item></NavLink>
