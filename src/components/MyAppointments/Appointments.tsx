@@ -1,7 +1,5 @@
-
 import React from 'react';
-import AppointmentCard from '.';
-import { Appointment } from '.';
+import AppointmentCard, {Appointment} from '.';
 
 const appointments: Appointment[] = [
   {
