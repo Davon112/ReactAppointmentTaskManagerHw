@@ -10,6 +10,7 @@ import SignInForm from './components/SignIn/Index'
 import SignUpForm from './components/SignUp'
 import AuthenticationGuard from './components/AuthenticationGuard'
 import ProfilePage from './components/ProfilePage'
+import AppointmentCard from './components/MyAppointments'
 import Appointments from './components/MyAppointments/Appointments'
 
 
